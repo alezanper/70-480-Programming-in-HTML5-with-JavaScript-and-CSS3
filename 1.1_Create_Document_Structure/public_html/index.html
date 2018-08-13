@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+Notes about certification exam.
+Skill 1.1. Create Document Structure
+-->
+<html>
+    <head>
+        <!--Title tag is used for name of web page-->
+        <title>1.1. Create Document Structure</title>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <!--Article and section are highly used by SEO (search engine optimization)
+        algorithm-->
+        <article>
+            <header>
+                <!--hgroup is deprecated-->
+                <hgroup>
+                    <!--h1 will be redered bigger due to hearder tag -->
+                    <h1>Our first new Article</h1>
+                </hgroup>
+            </header>
+            <!--Using Section tag-->
+            <section>
+                <h1>Section 1</h1>
+                <p>Some text </p>
+                <aside>using aside</aside>
+            </section>
+            <section>
+                <h1>Section 2</h1>
+            </section>
+        </article>
+        <article>
+            <header>
+                <hgroup>
+                    <h1>Second article</h1>
+                </hgroup>
+            </header>
+            <p>text about second section</p>
+        </article>
+        <article>
+            <header>
+                <hgroup>
+                    <h1>Third article</h1>
+                </hgroup>
+            </header>
+            <p>text about second section</p>
+        </article>
+
+        <!--This is the correct way to use the img tag between the figure tag and the figcation fro description-->
+        <figure>
+            <img src="https://img00.deviantart.net/cab4/i/2014/290/e/a/naruto_696___naruto_and_sasuke_2_by_antonuzumaki1-d837pe3.jpg" style="width:200px; height:150px;"/>
+            <figcaption>Fig 1: A really good anime.</figcaption>
+        </figure>
+
+        <!--This creates an horizontal line-->
+        <hr>
+
+        <!--Progress bar could be used for known data or for unknown data-->
+        <h1>Using Progress Bar</h1>
+
+        <!--Fixed-->
+        <p>Now with have 20%</p>
+        <span>0</span>
+        <progress value="20" max="100"></progress>
+        <span>100</span>
+
+        <!--Animated-->
+        <p>Downloading...</p>
+        <progress max="100"></progress>
+
+        <hr>
+
+        <!--You can add inline style-->
+        <h1>Using Mark</h1>
+        <mark style="background-color:red;">important!</mark> 
+
+        <hr>
+
+        <!--Use the correct HTML5 tag is the best practice for SEO (search engine optimization) -->
+        <section>
+            <h1>Fruits and Vegetables</h1>
+            <section>
+                <h1>Fruit</h1>
+                <section>
+                    <h1>Round Fruit</h1>
+                </section>
+                <section>
+                    <h1>Long Fruit</h1>
+                </section>
+            </section>
+            <section>
+                <h1>Vegetables</h1>
+                <section>
+                    <h1>Green</h1>
+                </section>
+                <section>
+                    <h1>Colorful</h1>
+                </section>
+            </section>
+        </section>
+    </body>
+</html>
